@@ -1,0 +1,28 @@
+- page: index.md
+  label: Quickstart
+
+  separatorLine: true
+
+- group: Guides
+  page: guides/index.md
+  pages:
+    - page: guides/guide-1.md
+      label: Guide 1
+    - page: guides/guide-2.md
+      label: Guide 2
+    - page: guides/guide-3.md
+      label: Guide 3
+
+  separatorLine: true
+
+- group: Concepts
+  page: concepts/index.md
+  sublabel: Drilldown sample
+  menuStyle: drilldown
+  pages:
+    - page: concepts/concept-1.md
+      label: Concept 1
+    - page: concepts/concept-2.md
+      label: Concept 2
+    - page: concepts/concept-3.md
+      label: Concept 3
